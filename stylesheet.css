@@ -1,0 +1,297 @@
+
+/* Fellows */
+
+
+#navbarNav
+{
+    padding-left: 15%;
+}
+
+.navbar a
+{
+    font-size: 90%;
+}
+
+.moncontainer{
+    position: relative;
+    width: 270px;
+    height: auto;
+    
+}
+
+.card-img-top{
+    width: 269px;
+    height:350px;
+    display: block;
+    opacity: 0.5;
+}
+
+.reward_fellows{
+    font-family: 'partybusiness';
+    top: 0px;
+    position: absolute;
+    border: 1px;
+    border-radius: 0.5em;
+    background-color: rgb(224, 216, 216);
+    text-align: center;
+    width: 90%;
+    height: 80px;
+    font-size: 1.5em;
+    margin: 15px 1px 0 10px;
+    padding-top: 15px;   
+}
+
+span{
+    color: darkorange;
+}
+
+.dead{
+    font-family: 'anirb';
+    position: absolute;
+    font-size: 40px;
+    text-transform: uppercase;
+    top: 20%;
+    left: 20%;
+}
+
+.lignesuppr
+{
+    position: relative;
+    margin-bottom:0px;
+    border-bottom: solid 4px orange;
+    width:50%;
+    top: -110px;
+    right: -50px;
+} 
+
+.moncontainer:hover .lignesuppr
+{
+    display: none;
+}
+
+.name_fellows{
+    font-family: 'partybusiness';
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 40%;
+    left: 70px;
+}
+
+.card-img-top:hover {
+    opacity:1;
+}
+.moncontainer:hover .reward_fellows{
+    display: none;
+}
+
+.moncontainer:hover .dead{
+    color:orange;
+}
+
+.moncontainer:hover .name_fellows{
+    position: absolute;
+    font-size: 50px;
+    opacity: 1;
+    top: 55%;
+    bottom: 0;
+}
+
+header{
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-end;
+	background-color: #616161;
+	color: #F5F5F5;
+	border-style: solid;
+	border-color: #616161;
+}
+
+header h1{
+	width:25%;
+}
+
+header ul{
+	display: flex;
+	justify-content:space-around;
+	font-size: 1.2em;
+	margin:0px;
+}
+
+header li{
+	display: block;
+	height: 100%;
+}
+
+header a{
+	display: block;
+	padding:5px;
+}
+header a:hover{
+	background-color: #F5F5F5;
+	padding:auto;
+	color:grey;
+}
+
+
+.fa {
+    font-size:inherit;
+}
+
+.media-body{
+    line-height:2px;
+}
+.navigation a
+{
+    color: gray;
+}
+
+.navigation-item:hover a
+{
+    color: orange;
+    text-decoration: underline;
+}
+
+/* TYPOGRAPHIE */
+
+@font-face 
+{ 	
+    font-family: 'anicm';
+    src: url('typo/anicm___.ttf');
+}
+
+.navbar a
+{
+    font-family: 'anicm';
+    font-size: 80%;
+    color: white;
+}
+
+@font-face 
+{ 	
+    font-family: 'partybusiness';
+    src: url('typo/partybusiness.ttf');
+}
+
+h2
+{
+    font-family: 'partybusiness';
+    font-size: 80px;
+}
+
+h5
+{
+    font-family: 'partybusiness';
+    font-size: 30px;
+}
+
+p
+{
+    font-family: 'partybusiness';
+    font-size: 20px;
+}
+
+
+@font-face 
+{ 	
+    font-family: 'anirb';
+    src: url('typo/anirb___.ttf');
+}
+
+h1
+{
+    font-family: 'anirb';
+    font-size: 22px;
+}
+
+h4
+{
+    font-family: 'anirb';
+    font-size: 18px;
+}
+
+.custom-select, .form-group, .form-control
+{
+    font-family: 'anirb';
+    font-size: 13px;
+}
+
+
+.nav-item, .btn, .joinarmy, .table
+{
+    font-family: 'anirb';
+    font-size: 15px;
+}
+
+
+@font-face 
+{ 	
+    font-family: 'anicm';
+    src: url('typo/anicm___.ttf');
+}
+
+.paragraphe
+{
+    font-family: 'anicm';
+    font-size: 50px;
+}
+
+
+.carousel-caption
+{
+    margin: 200px;
+}
+
+@font-face 
+{ 	
+    font-family: 'tngani';
+    src: url('typo/tngani.ttf');
+}
+
+.symbole
+{
+    font-family: 'tngani';
+    color: orange;
+}
+
+
+/* BACKGROUND */
+
+.background_paper
+{
+    background-image:url(image/bg_light.png);
+}
+
+.background_sauron
+{
+    background-image:url(image/bg_dark.png);
+}
+
+/* IMAGE RONDE */
+
+.arrondi img
+{
+    border-radius: 50%;
+}
+
+.arrondie
+{
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:40px 40px 0px 0px;
+}
+
+.coin img
+{
+    border-radius: 100%;
+}
+
+/* SEPARATEUR */
+
+.maligne
+{
+    margin-bottom:0px;
+    border-bottom: solid 4px orange;
+    width:50%;
+} 
